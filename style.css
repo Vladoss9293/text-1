@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(70, 70, 70);
+  align-items: center;
+}
+
+#lyrics {
+  background-color: #888;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#lyrics p {
+  opacity: 0.7;
+  transition: opacity 1s ease;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+#lyrics p.active {
+  transition: opacity 1s ease;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+#audio {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Синхронизация текста с песней</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <audio id="audio" src="file.mp3" controls></audio>
+
+      <div id="lyrics">
+        <p data-start="0">Когда играет песня, текст подсветится</p>
+        <p data-start="5">Когда дошли до 5 секунды</p>
+        <p data-start="10">Когда будет 10 сек</p>
+        <p data-start="15">Когда будет 15 сек</p>
+      </div>
+    </div>
+  </body>
+</html>
